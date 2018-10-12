@@ -21,8 +21,13 @@ pre code.hljs {
   border-top-right-radius: unset;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: unset;
+  overflow: hidden;
 }
 
 .highlight td:last-child pre {
   border-radius: unset;
+}
+
+.highlight td:last-child pre code {
+  white-space: pre;
 }
